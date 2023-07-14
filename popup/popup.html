@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Remind-O-Tron</title>
+        <script src="./popup.js" type="module"></script>
+        <link rel="stylesheet" href="./popup.css" />
+    </head>
+    <body>
+        <h2>Remind every(min):</h2>
+        <input type="number" id="time" value="0.2">
+        <h2>Break duration(min):</h2>
+        <input type="number" id="breakDuration" value="0.2">
+        <button id="start">Start reminders</button>
+        <button id="end">End reminders</button>
+        <div id="nextBreak"></div>
+    </body>
+</html>
